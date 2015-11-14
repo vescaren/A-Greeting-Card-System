@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+    <head>
+        
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>        
+<script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+<script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
+<script src="uploadImage.js"></script>
+	
+						
+        
+<link rel= "stylesheet" type="text/css" href  ="eCardStyle.css" >
+        <title>
+            Custom eCard!
+        </title>
+    </head>
+<body>
+    
+   
+    
+    <!-- Picture. Color picker, Text box, Music -->
+    
+    <div class="wrapper">
+    <h2 class = "header"> Make a Greeting Card Come to Life!</h2>
+    <p> Create a customer eCard for your friends and loved ones!</p>
+        <div class="box">
+        <div class ="box1"> 
+            <p = "inputTitle"> Select your input: </p>
+            <hr>
+			
+
+            <ul class = "nav navbar-nav">
+
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Templates<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li class="dropdown-header">Anniversary</li>
+						<li><a href=""><img id="drag1" src="Anniversary1.jpg" id="uploadPreview" style="width: 100px; height: 100px; draggable="true" ondragstart="drag(event)">                    
+					<li class="dropdown-header">Birthday</li>
+					<li class="dropdown-header">Chrismas</li>	
+				</li></ul>
+	
+                
+                
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Upload<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+						<li class= "dropdown-header">Browse</li> 
+							<li><form action="upload.php" method="post">
+							<input type="file" name="file" />
+							<input type="submit" value="Add Picture" /></li>
+					</li></ul>
+     
+
+		
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Text Box<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					<!-- <li><input type="text" id="t"></li> -->
+						<textarea name="area3" style="width: 300px; height: 100px;">
+								HTML content default in textarea
+						</textarea>
+					</ul></li>
+					
+            
+			<li><a href = ""> Layer </a></li>
+                    
+            </ul>
+            
+           
+            
+            <hr/>
+        </div>
+        </div>
+
+        <div class ="box2">
+        <p> Canvas to fill: </p>
+            <canvas id="myCanvas" width="400" height="400"style="border:1px solid #d3d3d3;">
+            <hr/></div>
+        </div>
+        
+    <h1>Send this eCard to a friend!</h1>
+            
+    <form action=â€sendmail.phpâ€ method=â€postâ€>
+                
+    <label>Your Name:<input type=â€textâ€
+        name=â€yournameâ€ /></label><br><br>
+        
+    <label>Your Email:<input type=â€textâ€
+        name=â€youremailâ€ /></label><br><br>
+                
+    <label>Friend Name:<input type=â€textâ€
+        name=â€theirnameâ€ /></label><br><br>
+                
+    <label>Friend Email:<input type=â€textâ€
+        name=â€theiremailâ€ /></label><br><br>
+                
+    <label>Add Message: <input type="text" name="message"/></label><br><br>
+                
+   <form method="post" action="mailto:youremail@youremail.com">
+		<input type="submit" value="Send this eCard" /> 
+			</form>
+        </form>   
+        
+
+        
+
+        </br>
+        <p class = "footer"> Made by Syrus M. Gaddy, Veronica Escareno, and Fernando Degro </br> We are so Awesome.</p>
+    </div>
+    
+        </div>
+</head>
+</div>
+    </body>
+</html>
