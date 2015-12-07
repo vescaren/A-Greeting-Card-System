@@ -1,0 +1,333 @@
+body{
+    background-color: #388BCF;
+    text-align: center;
+    text-decoration:none;
+  padding: 0;
+  margin: 0;
+margin-bottom:100px;
+ 
+}
+
+.wrapper{
+    width:1000px;
+    height:1000px;
+    margin: 0px 50px;
+    text-align: center;
+    background-color: #fff;
+    border-left-style: bold;
+    border-right-style: bold;
+    border-width: 5px;
+    padding-bottom: 100px;
+}
+
+ul li{
+    display:inline;
+    font-family: "Helvetica";
+}
+
+
+
+.input{
+    padding-left:0px;
+}
+
+.result{
+font-family:"Helvetica";
+}
+
+.input a {
+text-decoration: none; 
+padding: 19px 1px 19px 15px; 
+}
+
+a.nav{
+    padding-right:20px;
+    margin-right:-1px;
+}
+
+a.nav:last-child{
+    margin-right:3px;
+}
+.gallery {
+    display: none;
+    position: absolute;
+    width: 360px;
+    height: 295px;
+    
+}
+.upload {
+    display: none;
+    position: absolute;
+    width: 360px;
+    height: 295px;
+    float:left;
+    background-color:#fff;
+}
+.uploadHead{
+color: #2E6C9E;
+}
+.inputList{
+    margin-top: 15px;
+}
+.Inputlist input{
+display:inline;
+  
+}
+
+.eCardText{
+    padding-top:150px;
+}
+.words {
+    display: none;
+    position:absolute;
+    width: 360px;
+    height: 295px;
+    float:left;
+    background-color:#fff;
+    margin-top:18px;
+}
+
+li:hover .words{
+    display:block;
+}
+
+.text{
+display:none;
+}
+
+
+li:hover .text{
+    display:block;
+    text-align: left;
+     border-right-style:bold;
+    border-right-color:black;
+
+}
+li:hover .upload {
+    display:block;
+   margin-top: 18px;
+}
+
+.gallery li{
+    text-align: left;
+}
+
+li:hover input{
+    display:block;
+}
+
+#eCard{
+src: ("");
+text-align:center;
+height: 350px;
+width: 410px;
+margin-top: -10px;
+    
+}
+.submit h4 {
+text-align: left;
+}
+
+
+.box1{
+    box-shadow: 10px 10px 0px #2E6C9E;
+    border-style: solid;
+    border-color: white;
+    background-color: #f1f1f0;
+    height: 400px;
+    width: 400px;
+    margin: 0px 25px;
+    float: left;
+}
+
+.select{
+    font-family: "Helvetica";
+}
+
+.box2{
+    box-shadow: 10px 10px 0px #2E6C9E;
+    border-style: solid;
+    border-color: white;
+    background-color: #f1f1f0;
+    height: 400px;
+    width: 400px;
+    margin: 0px 25px;
+    float: right;
+    padding-right: 10px;
+}
+
+
+
+.header {
+text-align: center;
+font-family: "Helvetica";
+color: #3C8DCF; 
+width:%100;
+text-shadow: 5px 5px px #2E6C9E;
+box-shadow: 0px 10px 0px #2E6C9E;
+background-color: #fff;
+border-width: 5px;
+border-color:#2E6C9E; 
+padding-top: 30px;
+padding-bottom: 30px;
+font-size: 50px;
+text-align: center;
+margin: 0px;
+top: 0;
+left: 0;
+
+
+
+
+}
+
+li:hover .gallery{
+    display:block;
+    background-color:#fff;
+    margin-top: 18px; 
+    float:left;
+    border-right-style:bold;
+    border-right-color:black;
+}
+.uploadpic{
+    display:none;
+}
+li:hover .uploadpic{
+    display: block;
+    border-right-style:bold;
+    border-right-color:black;
+}
+
+p.subhead{
+    font-family: "Helvetica";
+    font-size: 30px;
+    color: white;
+    margin: 10px 0px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    height: 40px;
+    
+    box-shadow: 0px 10px 0px #2E6C9E;
+}
+
+.credit{
+padding-top: 20px;
+    padding-bottom: 20px;
+    color: #2E6C9E;
+    background-color: #fff;
+    margin-top: 0px; 
+    box-shadow: 0px 10px 0px #2e6c9e;
+    margin-bottom: 50px;
+    font-family: "Helvetica";
+}
+
+
+
+.b1 {
+    height:50px;
+    width:50px;
+}
+
+li hr {
+    text-align: center;
+}
+.save{
+    display: none;
+    position:absolute;
+    width: 360px;
+    height: 295px;
+    float:left;
+    background-color:#fff;
+    margin-top: 18px;
+}
+
+.buttonContainer
+{
+    margin-top: 100px;
+    padding-right: 10px;
+    height: 75px;
+    width: 300px;
+}
+
+.saveButton{
+    margin-top: 200px;
+    margin-right: 10px;
+    background-color: #2E6C9E;
+    font-family: "Helvetica";
+    padding-right: 15px;S
+    height: 75px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 5px #000;
+     -webkit-border-radius: 20px;
+}
+
+
+
+li:hover .save{
+    display: block;
+
+}
+
+.nav:hover{
+    background-color:#fff;
+    color:#3C8DCF;
+    border-right-style:bold;
+    border-right-color:black;
+    box-shadow: inset 3px 3px 3px #000;
+}
+
+
+#heading1, #heading2, #heading3{
+    font-family: "Helvetica";
+    -webkit-text-fill-color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+span input{
+    display:inline;
+}
+
+.footer{
+
+    margin-top:500px;
+    margin-left:0px;
+    padding-left:0px;
+    color:white;
+    font-family:"Helvetica";
+    padding-left 5px;
+}
+div.thOne{
+    background-image: url(Turkeyday.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+div.thTwo{
+    background-image: url("Turkeyday0.jpg");
+    background-size: contain;
+     background-repeat: no-repeat;
+}
+div.thThree{
+    background-image: url("Turkeyday1.jpg");
+    background-size: contain;
+     background-repeat: no-repeat;
+    background-color:#fff;
+}
+div.chOne{
+    background-image: url(Christmas1.jpg);
+    background-size: contain;
+     background-repeat: no-repeat;
+}
+div.chTwo{
+    background-image: url(Christmas2.jpg);
+    background-size: contain;
+     background-repeat: no-repeat;
+}
+div.chThree{
+    background-image: url("Christmas3.jpg");
+    background-size: contain;
+     background-repeat: no-repeat;
+}
+
